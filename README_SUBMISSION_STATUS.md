@@ -1,1 +1,25 @@
-# SUBMISSION STATUS\n\nUpdated UTC: 2026-06-24T05:47:28.564857+00:00\n\n## Status Label\nPublic pre-submission draft. GitHub timestamp posted. Not yet an official Proximity Prize submission pending academic repository posting, prior-work expansion, companion-paper notation alignment, and peer-review acceptance.\n\n## Build State\n- PDF_READY: yes\n- GITHUB_TIMESTAMP_READY: yes\n- GITHUB_URL: https://github.com/thehenryco/rs-m1-capacity-list-obstruction\n- ACADEMIC_REPOSITORY_READY: not yet\n- PUBLIC_POSTING_READY: GitHub yes; arXiv/IACR not yet\n- PEER_REVIEW_READY: not yet\n- PRIOR_WORK_READY: not yet\n- CONFLICT_DISCLOSURE_READY: preliminary only\n- PRIZE_NOTATION_ALIGNMENT_READY: not yet\n- OFFICIAL_SUBMISSION_READY: not yet\n\n## Missing Before Official Submission\n- academic repository posting\n- peer-review acceptance\n- expanded prior-work positioning\n- final conflict disclosure\n- exact notation alignment to companion paper
+﻿# SUBMISSION STATUS
+
+Updated UTC: 2026-06-24T01:48:27.1873896-04:00
+
+## Status Label
+Public pre-submission draft. GitHub timestamp posted. Not yet an official Proximity Prize submission pending academic repository posting, prior-work expansion, companion-paper notation alignment, and peer-review acceptance.
+
+## Build State
+- PDF_READY: yes
+- GITHUB_TIMESTAMP_READY: yes
+- GITHUB_URL: https://github.com/thehenryco/rs-m1-capacity-list-obstruction
+- ACADEMIC_REPOSITORY_READY: not yet
+- PUBLIC_POSTING_READY: GitHub yes; arXiv/IACR not yet
+- PEER_REVIEW_READY: not yet
+- PRIOR_WORK_READY: not yet
+- CONFLICT_DISCLOSURE_READY: preliminary only
+- PRIZE_NOTATION_ALIGNMENT_READY: not yet
+- OFFICIAL_SUBMISSION_READY: not yet
+
+## Missing Before Official Submission
+- academic repository posting
+- peer-review acceptance
+- expanded prior-work positioning
+- final conflict disclosure
+- exact notation alignment to companion paper
