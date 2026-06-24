@@ -1,4 +1,4 @@
-# A Capacity-Radius List-Decoding Obstruction for the m=1 Specialization of Reed-Solomon Codes
+﻿# A Capacity-Radius List-Decoding Obstruction for the m=1 Specialization of Reed-Solomon Codes
 
 Author: Jerod Harbor
 
@@ -10,7 +10,7 @@ This draft claims a partial result for early review: an m=1 capacity-radius list
 
 GitHub timestamp repository: https://github.com/thehenryco/rs-m1-capacity-list-obstruction
 
-Academic repository link: TO_BE_ADDED_AFTER_ARXIV_OR_IACR_POSTING
+Academic repository link: PASTE_ARXIV_OR_IACR_URL_HERE
 
 Peer-review status: TO_BE_ADDED_AFTER_CONFERENCE_OR_JOURNAL_ACCEPTANCE
 
@@ -121,3 +121,4 @@ Suggested IACR area: coding-theory-adjacent foundations for proximity testing an
 ## 11. Submission Readiness
 
 This document is an academic-posting candidate. GitHub timestamping is complete. Local paper cleanup is complete. Official Proximity Prize submission is not complete until academic repository posting and peer-review acceptance are added.
+
