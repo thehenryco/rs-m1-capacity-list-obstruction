@@ -2,8 +2,8 @@
 
 Repository name: rs-m1-capacity-list-obstruction
 GitHub URL: https://github.com/thehenryco/rs-m1-capacity-list-obstruction
-Latest commit hash: ce33b57478174d6e08d80a5dfb4920c47cde65da
-Latest commit timestamp: 2026-06-24T01:47:35-04:00
+Latest commit hash: 46aba998c1e3835d575a69df505fcec560d94a9e
+Latest commit timestamp: 2026-06-24T01:47:40-04:00
 
 Claim: m=1 specialization threshold failure at capacity radius
 Central formula: |Lambda(C,y,n-k)| = binom(n,k) > 2^-128 |F_q|
