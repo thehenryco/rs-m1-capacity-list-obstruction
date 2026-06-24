@@ -11,8 +11,8 @@ The draft proves that if binom(n,k+1) < q < 2^128 binom(n,k), then there exists 
 
 Conflict disclosure: The author declares no known conflicts of interest related to this submission, unless later disclosed in the final version.
 
-Repository link: TO_BE_ADDED_AFTER_PUBLIC_POSTING
+GitHub timestamp repository: https://github.com/thehenryco/rs-m1-capacity-list-obstruction\nAcademic repository link: TO_BE_ADDED_AFTER_ARXIV_OR_IACR_POSTING
 Peer-review status: TO_BE_ADDED_AFTER_ACCEPTANCE
 
 Sincerely,
-Jerod Harbor
+Jerod Harbor\nFinal conflict disclosure status: preliminary conflict disclosure included; final confirmation required before official submission.\n

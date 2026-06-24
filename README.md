@@ -2,12 +2,12 @@
 
 Author: Jerod Harbor
 
-Status: PRE-SUBMISSION DRAFT
+Status: Public pre-submission draft. GitHub timestamp posted. Not yet an official Proximity Prize submission pending academic repository posting, prior-work expansion, companion-paper notation alignment, and peer-review acceptance.
 
 ## Front Matter
 This draft claims a partial result: resolution of the m=1 specialization of the grand Reed-Solomon list-decoding challenge at the capacity-radius surface. It does not claim to resolve the full mutual correlated agreement challenge or the full grand list-decoding challenge for arbitrary constant m.
 
-Repository link: TO_BE_ADDED_AFTER_PUBLIC_POSTING
+GitHub timestamp repository: https://github.com/thehenryco/rs-m1-capacity-list-obstruction\nAcademic repository link: TO_BE_ADDED_AFTER_ARXIV_OR_IACR_POSTING
 
 Peer-review status: TO_BE_ADDED_AFTER_CONFERENCE_OR_JOURNAL_ACCEPTANCE
 
@@ -80,4 +80,4 @@ Choose y uniformly at random from F_q^n. Fix a degree < k polynomial f and a fix
 TO_BE_EXPANDED. The final version should compare this result with the Proximity Prize companion paper, classical Reed-Solomon list decoding, Johnson-type bounds, capacity-radius behavior, and known impossibility or near-capacity results. This section must identify whether the m=1 specialization is explicitly covered by the prize definitions or whether it is submitted as a specialization/partial result.
 
 ## 8. Submission Readiness
-This document is a pre-submission draft until the following are added: final PDF, public repository timestamp, peer-review acceptance information, expanded prior-work comparison, and final conflict disclosure.
+This document is a pre-submission draft until the following are added: final PDF, public repository timestamp, peer-review acceptance information, expanded prior-work comparison, and final conflict disclosure.\n\n## Public Timestamp and Repository Status\nGitHub timestamp repository: https://github.com/thehenryco/rs-m1-capacity-list-obstruction\n\nAcademic repository link: TO_BE_ADDED_AFTER_ARXIV_OR_IACR_POSTING\n\nStatus label: Public pre-submission draft. GitHub timestamp posted. Not yet an official Proximity Prize submission pending academic repository posting, prior-work expansion, companion-paper notation alignment, and peer-review acceptance.\n
