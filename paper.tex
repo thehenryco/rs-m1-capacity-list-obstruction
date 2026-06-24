@@ -1,0 +1,37 @@
+\documentclass[11pt]{article}
+\usepackage{amsmath,amssymb,amsthm}
+\usepackage[margin=1in]{geometry}
+\newtheorem{theorem}{Theorem}
+\newtheorem{lemma}{Lemma}
+\title{A Capacity-Radius List-Decoding Obstruction for the m=1 Specialization of Reed-Solomon Codes}
+\author{Jerod Harbor}
+\date{\today}
+\begin{document}
+\maketitle
+\paragraph{Status.} Pre-submission draft.
+\paragraph{Scope.} This draft claims a partial result: resolution of the \(m=1\) specialization of the grand Reed--Solomon list-decoding challenge at the capacity-radius surface. It does not claim to resolve the full mutual correlated agreement challenge or the full grand list-decoding challenge for arbitrary constant \(m\).
+\paragraph{Repository.} TO\_BE\_ADDED\_AFTER\_PUBLIC\_POSTING.
+\paragraph{Peer-review status.} TO\_BE\_ADDED\_AFTER\_CONFERENCE\_OR\_JOURNAL\_ACCEPTANCE.
+\paragraph{Conflict disclosure.} The author declares no known conflicts of interest related to this submission, unless later disclosed in the final submitted version.
+\begin{abstract}
+We give a capacity-radius list-decoding obstruction for the \(m=1\) specialization of Reed--Solomon codes. Let \(C=RS[\mathbb{F}_q,L,k]\) with \(|L|=n\). We prove that, whenever \(q>\binom{n}{k+1}\), there exists a received word \(y\) for which the Hamming ball of radius \(n-k\) contains exactly \(\binom{n}{k}\) Reed--Solomon codewords. Consequently, if \(\binom{n}{k+1}<q<2^{128}\binom{n}{k}\), then \(|\Lambda(C,y,n-k)|=\binom{n}{k}>2^{-128}|\mathbb{F}_q|\).
+\end{abstract}
+\section{Notation}
+Let \(L\subset\mathbb{F}_q\) have size \(n\), and let \(RS[\mathbb{F}_q,L,k]\) be the Reed--Solomon code obtained by evaluating polynomials of degree less than \(k\) on \(L\). For \(y\in\mathbb{F}_q^n\), let \(\Lambda(C,y,r)\) denote the set of codewords of \(C\) within Hamming distance \(r\) from \(y\).
+\begin{theorem}
+Let \(C=RS[\mathbb{F}_q,L,k]\) with \(|L|=n\). Suppose \(q>\binom{n}{k+1}\). Then there exists \(y\in\mathbb{F}_q^n\) such that \(|\Lambda(C,y,n-k)|=\binom{n}{k}\). Consequently, if \(q<2^{128}\binom{n}{k}\), then \(|\Lambda(C,y,n-k)|>2^{-128}|\mathbb{F}_q|\) at relative radius \(\delta=1-k/n\).
+\end{theorem}
+\begin{proof}
+Choose \(y\in\mathbb{F}_q^n\) such that no polynomial of degree less than \(k\) agrees with \(y\) on more than \(k\) coordinates; the lemma below proves existence. For each \(k\)-subset \(S\) of the coordinate positions, there is a unique degree \(<k\) polynomial \(f_S\) interpolating \(y\) on \(S\). Its codeword agrees with \(y\) on \(S\), hence is within Hamming radius \(n-k\). If two distinct \(k\)-subsets \(S,T\) produced the same polynomial, that polynomial would agree with \(y\) on \(S\cup T\), which has more than \(k\) coordinates, a contradiction. Thus at least \(\binom{n}{k}\) distinct codewords lie in the list. Conversely, any codeword in the list agrees with \(y\) on at least \(k\) coordinates and, by construction, on no more than \(k\). Therefore it arises from exactly one \(k\)-subset. Hence the list size is exactly \(\binom{n}{k}\). If \(q<2^{128}\binom{n}{k}\), then \(\binom{n}{k}>2^{-128}q=2^{-128}|\mathbb{F}_q|\), so the threshold fails.
+\end{proof}
+\begin{lemma}
+Such a \(y\) exists whenever \(q>\binom{n}{k+1}\).
+\end{lemma}
+\begin{proof}
+Choose \(y\) uniformly at random from \(\mathbb{F}_q^n\). For a fixed degree \(<k\) polynomial \(f\) and a fixed \((k+1)\)-subset \(T\), the probability that \(f\) agrees with \(y\) on all coordinates in \(T\) is \(q^{-(k+1)}\). There are \(q^k\) polynomials of degree \(<k\) and \(\binom{n}{k+1}\) choices for \(T\). By the union bound, the probability that some degree \(<k\) polynomial agrees with \(y\) on more than \(k\) coordinates is at most \(\binom{n}{k+1}/q\), which is less than \(1\) under the stated condition.
+\end{proof}
+\section{Prior-work positioning}
+TO BE EXPANDED before submission. The final version should compare this result with the Proximity Prize companion paper, classical Reed--Solomon list decoding, Johnson-type bounds, capacity-radius behavior, and known near-capacity limitations.
+\section{Submission readiness}
+This document remains a pre-submission draft until a final PDF, public repository timestamp, peer-review acceptance information, expanded prior-work comparison, and final conflict disclosure are added.
+\end{document}

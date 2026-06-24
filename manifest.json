@@ -1,0 +1,22 @@
+{
+  "bundle": "PRE_SUBMISSION_M1_SPECIALIZATION_PACKAGE",
+  "created_utc": "2026-06-24T05:34:16.963710+00:00",
+  "status": "PRE_SUBMISSION_DRAFT",
+  "claim": "m=1 specialization threshold failure at capacity radius",
+  "central_formula": "|Lambda(C,y,n-k)| = binom(n,k) > 2^-128 |F_q|",
+  "field_window": "binom(n,k+1) < q < 2^128 binom(n,k)",
+  "missing_before_official_submission": [
+    "peer-review acceptance",
+    "public repository timestamp",
+    "expanded prior-work positioning",
+    "final conflict disclosure",
+    "exact notation alignment to companion paper"
+  ],
+  "pdf_built": true,
+  "pdf_file": "paper.pdf",
+  "updated_utc": "2026-06-24T05:37:02.952509+00:00",
+  "pdf_build_method": "python_standard_library_minimal_pdf_writer",
+  "status_readme": "README_SUBMISSION_STATUS.md",
+  "official_submission_ready": false,
+  "status_updated_utc": "2026-06-24T05:38:18.681178+00:00"
+}
