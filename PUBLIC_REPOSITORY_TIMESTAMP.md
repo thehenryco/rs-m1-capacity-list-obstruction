@@ -2,9 +2,9 @@
 
 Repository name: rs-m1-capacity-list-obstruction
 GitHub URL: https://github.com/thehenryco/rs-m1-capacity-list-obstruction
-Latest commit hash: 46aba998c1e3835d575a69df505fcec560d94a9e
-Latest commit timestamp: 2026-06-24T01:47:40-04:00
+Academic-posting candidate commit hash: ac1e3e7b4d358adc836cbc14327cdfed73f9807b
+Academic-posting candidate timestamp: 2026-06-24T01:53:46-04:00
 
 Claim: m=1 specialization threshold failure at capacity radius
 Central formula: |Lambda(C,y,n-k)| = binom(n,k) > 2^-128 |F_q|
-Status: Public pre-submission draft. GitHub timestamp posted. Not yet an official Proximity Prize submission pending academic repository posting, prior-work expansion, companion-paper notation alignment, and peer-review acceptance.
+Status: Academic-posting candidate. GitHub timestamp posted. Local paper cleanup complete. Not yet an official Proximity Prize submission pending academic repository posting and peer-review acceptance.
