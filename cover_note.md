@@ -10,7 +10,7 @@ I am preparing a possible submission related to the Reed-Solomon grand list-deco
 
 GitHub timestamp repository: https://github.com/thehenryco/rs-m1-capacity-list-obstruction
 
-Academic repository link: PASTE_ARXIV_OR_IACR_URL_HERE
+Academic repository link: TO_BE_ADDED_AFTER_ARXIV_OR_IACR_POSTING
 
 Peer-review status: TO_BE_ADDED_AFTER_ACCEPTANCE
 
@@ -22,4 +22,5 @@ Final conflict disclosure: I declare no known financial, institutional, employme
 
 Sincerely,
 Jerod Harbor
+
 

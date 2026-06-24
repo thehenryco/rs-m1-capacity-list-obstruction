@@ -1,18 +1,24 @@
 ﻿# SUBMISSION STATUS
 
-Updated UTC: 2026-06-24T05:56:55.7782656Z
+Updated UTC: 2026-06-24T05:57:30.6870988Z
 
 ## Status Label
-Academic repository posted. GitHub timestamp posted. Not yet an official Proximity Prize submission pending peer-review acceptance.
+Academic-posting candidate. GitHub timestamp posted. Local paper cleanup complete. Not yet an official Proximity Prize submission pending academic repository posting and peer-review acceptance.
 
 ## Build State
 - PDF_READY: yes
 - GITHUB_TIMESTAMP_READY: yes
 - GITHUB_URL: https://github.com/thehenryco/rs-m1-capacity-list-obstruction
-- ACADEMIC_REPOSITORY_READY: yes
-- ACADEMIC_REPOSITORY_URL: PASTE_ARXIV_OR_IACR_URL_HERE
+- README_CLEANUP_READY: yes
+- PRIOR_WORK_READY: yes
+- CONFLICT_DISCLOSURE_READY: yes
+- PRIZE_NOTATION_ALIGNMENT_READY: yes for m=1 specialization
+- ARXIV_METADATA_READY: yes
+- IACR_METADATA_READY: yes
+- ACADEMIC_REPOSITORY_READY: not yet
 - PEER_REVIEW_READY: not yet
 - OFFICIAL_SUBMISSION_READY: not yet
 
 ## Missing Before Official Submission
+- academic repository posting
 - peer-review acceptance
