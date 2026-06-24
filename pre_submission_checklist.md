@@ -1,1 +1,16 @@
-# Pre-Submission Checklist\n\n- [x] theorem statement\n- [x] proof\n- [x] m=1 specialization scope\n- [x] preliminary conflict disclosure\n- [x] PDF compiled\n- [x] GitHub timestamp posted\n- [x] GitHub URL inserted into package\n- [ ] arXiv or IACR ePrint academic repository posting\n- [ ] final conflict disclosure confirmed\n- [ ] expanded prior-work positioning\n- [ ] exact notation alignment to companion paper\n- [ ] peer-review acceptance added\n- [ ] official submission cover note finalized
+# Pre-Submission Checklist
+
+- [x] theorem statement
+- [x] proof
+- [x] m=1 specialization scope
+- [x] final conflict disclosure
+- [x] PDF compiled
+- [x] GitHub timestamp posted
+- [x] GitHub URL inserted into package
+- [x] expanded prior-work positioning
+- [x] m=1 companion-paper notation alignment
+- [x] arXiv metadata draft
+- [x] IACR ePrint metadata draft
+- [ ] arXiv or IACR ePrint academic repository posting
+- [ ] peer-review acceptance added
+- [ ] official submission cover note finalized after acceptance

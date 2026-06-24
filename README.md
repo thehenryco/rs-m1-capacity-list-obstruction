@@ -81,3 +81,39 @@ TO_BE_EXPANDED. The final version should compare this result with the Proximity 
 
 ## 8. Submission Readiness
 This document is a pre-submission draft until the following are added: final PDF, public repository timestamp, peer-review acceptance information, expanded prior-work comparison, and final conflict disclosure.\n\n## Public Timestamp and Repository Status\nGitHub timestamp repository: https://github.com/thehenryco/rs-m1-capacity-list-obstruction\n\nAcademic repository link: TO_BE_ADDED_AFTER_ARXIV_OR_IACR_POSTING\n\nStatus label: Public pre-submission draft. GitHub timestamp posted. Not yet an official Proximity Prize submission pending academic repository posting, prior-work expansion, companion-paper notation alignment, and peer-review acceptance.\n
+
+## Prior-Work Positioning
+
+The Proximity Prize targets Reed-Solomon list-decoding and correlated-agreement challenges formalized in the companion paper by Arnon, Boneh, and Fenzi. This draft is positioned as an m=1 ordinary-list specialization, not as a claim about the full mutual correlated agreement object or arbitrary constant m.
+
+Classical Reed-Solomon list decoding studies the size of Hamming balls around received words and the radius at which many codewords can appear. The construction in this draft is elementary but directly exposes the capacity-radius surface: for C = RS[F_q,L,k], a received word y with no degree < k polynomial agreeing on more than k coordinates has exactly binom(n,k) codewords at radius n-k.
+
+Johnson-type bounds and capacity-style results are usually used to upper-bound list size below or near decoding thresholds. This note instead gives a lower-bound obstruction at the capacity-radius boundary delta = 1-k/n. It should therefore be read as a specialization/edge-case obstruction that must be compared carefully against the exact Lambda(C^{equiv m},delta) definitions in the Proximity Prize companion paper.
+
+Recent work around Reed-Solomon proximity gaps relates proximity-gap behavior to list-decodability limits. This draft does not claim to improve those results. It isolates the m=1 ordinary-list object and supplies a transparent construction showing threshold failure in the field-size window binom(n,k+1) < q < 2^128 binom(n,k).
+
+
+
+## Companion-Paper Notation Alignment
+
+This draft aligns to the m=1 specialization of the grand list-decoding notation. In that specialization, C^{equiv 1} is treated as the ordinary Reed-Solomon code C, and Lambda(C^{equiv 1},delta) is treated as the ordinary list of codewords within relative Hamming radius delta of a received word y.
+
+The theorem proves that at delta = 1-k/n, there exists y such that |Lambda(C^{equiv 1},y,delta)| = binom(n,k). When binom(n,k+1) < q < 2^128 binom(n,k), this exceeds 2^-128 |F_q|.
+
+This notation alignment does not assert the arbitrary constant-m case. The arbitrary-m object remains outside this draft unless a separate m-wise construction is added.
+
+
+
+## Final Conflict Disclosure
+
+The author declares no known financial, institutional, employment, advisory, or personal conflicts of interest that would affect this pre-submission draft. The public GitHub repository is owned by the author through the thehenryco GitHub account.
+
+
+
+## Academic Repository Metadata
+
+Academic repository status: TO_BE_ADDED_AFTER_ARXIV_OR_IACR_POSTING
+
+Suggested arXiv categories: cs.IT, math.IT, cs.CR
+
+Suggested IACR area: coding-theory-adjacent foundations for proximity testing and list decoding.
