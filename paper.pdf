@@ -6,7 +6,7 @@ endobj
 << /Type /Font /Subtype /Type1 /BaseFont /Times-Bold >>
 endobj
 3 0 obj
-<< /Length 3524 >>
+<< /Length 3267 >>
 stream
 BT
 /F2 16 Tf
@@ -16,68 +16,62 @@ BT
 72 698 Td (Author: Jerod Harbor) Tj
 -72 -698 Td
 /F1 10 Tf
-72 673 Td (Status: Public pre-submission draft. GitHub timestamp posted. Not yet an official Proximity) Tj
+72 673 Td (Status: Public pre-submission draft. GitHub timestamp posted. m=1 notation alignment, final) Tj
 -72 -673 Td
 /F1 10 Tf
-72 658 Td (Prize submission pending academic repository posting, prior-work expansion, companion-paper) Tj
+72 658 Td (conflict disclosure, and prior-work positioning included. Not yet an official Proximity) Tj
 -72 -658 Td
 /F1 10 Tf
-72 643 Td (notation alignment, and peer-review acceptance.) Tj
+72 643 Td (Prize submission pending academic repository posting and peer-review acceptance.) Tj
 -72 -643 Td
 /F2 13 Tf
 72 618 Td (Front Matter) Tj
 -72 -618 Td
 /F1 10 Tf
-72 590 Td (This draft claims a partial result: resolution of the m=1 specialization of the grand Reed-) Tj
--72 -590 Td
+72 580 Td (This draft claims a partial result for early review: an m=1 capacity-radius list-size) Tj
+-72 -580 Td
 /F1 10 Tf
-72 575 Td (Solomon list-decoding challenge at the capacity-radius surface. It does not claim to resolve) Tj
--72 -575 Td
+72 565 Td (obstruction for Reed-Solomon codes. It does not claim official Proximity Prize readiness,) Tj
+-72 -565 Td
 /F1 10 Tf
-72 560 Td (the full mutual correlated agreement challenge or the full grand list-decoding challenge for) Tj
--72 -560 Td
+72 550 Td (peer-reviewed status, full mutual correlated agreement resolution, or full grand list-) Tj
+-72 -550 Td
 /F1 10 Tf
-72 545 Td (arbitrary constant m.) Tj
--72 -545 Td
+72 535 Td (decoding resolution for arbitrary constant m.) Tj
+-72 -535 Td
 /F1 10 Tf
-72 520 Td (GitHub timestamp repository: https://github.com/thehenryco/rs-m1-capacity-list-) Tj
--72 -520 Td
+72 510 Td (GitHub timestamp repository: https://github.com/thehenryco/rs-m1-capacity-list-obstruction) Tj
+-72 -510 Td
 /F1 10 Tf
-72 505 Td (obstruction\\nAcademic repository link: TO_BE_ADDED_AFTER_ARXIV_OR_IACR_POSTING) Tj
--72 -505 Td
+72 485 Td (Academic repository link: TO_BE_ADDED_AFTER_ARXIV_OR_IACR_POSTING) Tj
+-72 -485 Td
 /F1 10 Tf
-72 480 Td (Peer-review status: TO_BE_ADDED_AFTER_CONFERENCE_OR_JOURNAL_ACCEPTANCE) Tj
--72 -480 Td
-/F1 10 Tf
-72 455 Td (Conflict-of-interest disclosure: The author declares no known conflicts of interest related) Tj
--72 -455 Td
-/F1 10 Tf
-72 440 Td (to this submission, unless later disclosed in the final submitted version.) Tj
--72 -440 Td
+72 460 Td (Peer-review status: TO_BE_ADDED_AFTER_CONFERENCE_OR_JOURNAL_ACCEPTANCE) Tj
+-72 -460 Td
 /F2 13 Tf
-72 415 Td (Abstract) Tj
--72 -415 Td
+72 435 Td (Abstract) Tj
+-72 -435 Td
 /F1 10 Tf
-72 387 Td (We give a capacity-radius list-decoding obstruction for the m=1 specialization of Reed-) Tj
--72 -387 Td
+72 397 Td (We give a capacity-radius list-decoding obstruction for the m=1 specialization of Reed-) Tj
+-72 -397 Td
 /F1 10 Tf
-72 372 Td (Solomon codes. Let C = RS[F_q,L,k] with |L|=n. We prove that, whenever q > binom\(n,k+1\),) Tj
--72 -372 Td
+72 382 Td (Solomon codes. Let C = RS[F_q,L,k] with |L|=n. We prove that, whenever q > binom\(n,k+1\),) Tj
+-72 -382 Td
 /F1 10 Tf
-72 357 Td (there exists a received word y for which the Hamming ball of radius n-k contains exactly) Tj
--72 -357 Td
+72 367 Td (there exists a received word y for which the Hamming ball of radius n-k contains exactly) Tj
+-72 -367 Td
 /F1 10 Tf
-72 342 Td (binom\(n,k\) Reed-Solomon codewords. Consequently, if binom\(n,k+1\) < q < 2^128 binom\(n,k\),) Tj
--72 -342 Td
+72 352 Td (binom\(n,k\) Reed-Solomon codewords. Consequently, if binom\(n,k+1\) < q < 2^128 binom\(n,k\),) Tj
+-72 -352 Td
 /F1 10 Tf
-72 327 Td (then |Lambda\(C,y,n-k\)| = binom\(n,k\) > 2^-128 |F_q|. Thus the epsilon_star = 2^-128 threshold) Tj
--72 -327 Td
+72 337 Td (then |Lambda\(C,y,n-k\)| = binom\(n,k\) > 2^-128 |F_q|. Thus the epsilon_star = 2^-128 threshold) Tj
+-72 -337 Td
 /F1 10 Tf
-72 312 Td (fails at delta = 1-k/n for the m=1 specialization in this field-size window.) Tj
--72 -312 Td
+72 322 Td (fails at delta = 1-k/n for the m=1 specialization in this field-size window.) Tj
+-72 -322 Td
 /F2 13 Tf
-72 287 Td (1. Scope of the Claim) Tj
--72 -287 Td
+72 297 Td (1. Scope of the Claim) Tj
+-72 -297 Td
 /F1 10 Tf
 72 259 Td (This draft addresses the m=1 specialization of the grand list-decoding challenge. In this) Tj
 -72 -259 Td
@@ -94,427 +88,382 @@ BT
 72 189 Td (2. Notation) Tj
 -72 -189 Td
 /F1 10 Tf
-72 161 Td (Let F_q be a finite field and let L subset F_q be an evaluation domain of size n. Let) Tj
--72 -161 Td
+72 151 Td (Let F_q be a finite field and let L subset F_q be an evaluation domain of size n. Let) Tj
+-72 -151 Td
 /F1 10 Tf
-72 146 Td (RS[F_q,L,k] denote the Reed-Solomon code obtained by evaluating polynomials of degree less) Tj
--72 -146 Td
+72 136 Td (RS[F_q,L,k] denote the Reed-Solomon code obtained by evaluating polynomials of degree less) Tj
+-72 -136 Td
 /F1 10 Tf
-72 131 Td (than k on L. The rate is rho = k/n. For a received word y in F_q^n and integer radius r, let) Tj
--72 -131 Td
+72 121 Td (than k on L. The rate is rho = k/n. For a received word y in F_q^n and integer radius r, let) Tj
+-72 -121 Td
 /F1 10 Tf
-72 116 Td (Lambda\(C,y,r\) be the set of codewords of C within Hamming distance r from y.) Tj
--72 -116 Td
-/F2 13 Tf
-72 91 Td (3. Main Theorem) Tj
--72 -91 Td
+72 106 Td (Lambda\(C,y,r\) be the set of codewords of C within Hamming distance r from y.) Tj
+-72 -106 Td
 ET
 endstream
 endobj
 4 0 obj
-<< /Length 3461 >>
-stream
-BT
-/F1 10 Tf
-72 742 Td (Let C = RS[F_q,L,k] with |L|=n. Suppose q > binom\(n,k+1\). Then there exists y in F_q^n such) Tj
--72 -742 Td
-/F1 10 Tf
-72 727 Td (that |Lambda\(C,y,n-k\)| = binom\(n,k\). Consequently, if q < 2^128 binom\(n,k\), then) Tj
--72 -727 Td
-/F1 10 Tf
-72 712 Td (|Lambda\(C,y,n-k\)| > 2^-128 |F_q| at delta = 1-k/n.) Tj
--72 -712 Td
-/F2 13 Tf
-72 687 Td (4. Proof) Tj
--72 -687 Td
-/F1 10 Tf
-72 659 Td (Choose y in F_q^n such that no polynomial of degree less than k agrees with y on more than k) Tj
--72 -659 Td
-/F1 10 Tf
-72 644 Td (coordinates. Section 5 proves that such y exists when q > binom\(n,k+1\).) Tj
--72 -644 Td
-/F1 10 Tf
-72 619 Td (For each k-subset S of the n coordinate positions, there is a unique degree < k polynomial) Tj
--72 -619 Td
-/F1 10 Tf
-72 604 Td (f_S interpolating y on S. Its Reed-Solomon codeword agrees with y on S, hence has Hamming) Tj
--72 -604 Td
-/F1 10 Tf
-72 589 Td (distance at most n-k from y.) Tj
--72 -589 Td
-/F1 10 Tf
-72 564 Td (If two distinct k-subsets S and T produced the same polynomial, then that polynomial would) Tj
--72 -564 Td
-/F1 10 Tf
-72 549 Td (agree with y on S union T. Since S and T are distinct k-subsets, S union T has more than k) Tj
--72 -549 Td
-/F1 10 Tf
-72 534 Td (coordinates. This contradicts the choice of y. Therefore the binom\(n,k\) k-subsets produce) Tj
--72 -534 Td
-/F1 10 Tf
-72 519 Td (binom\(n,k\) distinct codewords in Lambda\(C,y,n-k\).) Tj
--72 -519 Td
-/F1 10 Tf
-72 494 Td (Conversely, any codeword in Lambda\(C,y,n-k\) agrees with y on at least k coordinates. By) Tj
--72 -494 Td
-/F1 10 Tf
-72 479 Td (construction, no degree < k polynomial agrees with y on more than k coordinates. Therefore) Tj
--72 -479 Td
-/F1 10 Tf
-72 464 Td (each listed codeword agrees on exactly k coordinates and is generated by one of the) Tj
--72 -464 Td
-/F1 10 Tf
-72 449 Td (k-subsets above. Hence |Lambda\(C,y,n-k\)| = binom\(n,k\).) Tj
--72 -449 Td
-/F1 10 Tf
-72 424 Td (If q < 2^128 binom\(n,k\), then binom\(n,k\) > 2^-128 q = 2^-128 |F_q|. Thus the threshold) Tj
--72 -424 Td
-/F1 10 Tf
-72 409 Td (|Lambda| <= 2^-128 |F_q| fails at delta = 1-k/n.) Tj
--72 -409 Td
-/F2 13 Tf
-72 384 Td (5. Existence Lemma) Tj
--72 -384 Td
-/F1 10 Tf
-72 356 Td (Choose y uniformly at random from F_q^n. Fix a degree < k polynomial f and a fixed) Tj
--72 -356 Td
-/F1 10 Tf
-72 341 Td (\(k+1\)-subset T of coordinates. The probability that f agrees with y on every coordinate of T) Tj
--72 -341 Td
-/F1 10 Tf
-72 326 Td (is q^{-\(k+1\)}. There are q^k degree < k polynomials and binom\(n,k+1\) choices for T. By the) Tj
--72 -326 Td
-/F1 10 Tf
-72 311 Td (union bound, the probability that some degree < k polynomial agrees with y on more than k) Tj
--72 -311 Td
-/F1 10 Tf
-72 296 Td (coordinates is at most binom\(n,k+1\)/q. If q > binom\(n,k+1\), this probability is less than 1,) Tj
--72 -296 Td
-/F1 10 Tf
-72 281 Td (so a suitable y exists.) Tj
--72 -281 Td
-/F2 13 Tf
-72 256 Td (6. Fixed-Rate Examples) Tj
--72 -256 Td
-/F2 11 Tf
-72 228 Td (rho = 1/2) Tj
--72 -228 Td
-/F1 10 Tf
-72 206 Td (- n = 32) Tj
--72 -206 Td
-/F1 10 Tf
-72 191 Td (- k = 16) Tj
--72 -191 Td
-/F1 10 Tf
-72 176 Td (- delta = 16/32) Tj
--72 -176 Td
-/F1 10 Tf
-72 161 Td (- radius = 16) Tj
--72 -161 Td
-/F1 10 Tf
-72 146 Td (- exact list size = 601080390) Tj
--72 -146 Td
-/F1 10 Tf
-72 131 Td (- existence threshold: q > 565722720) Tj
--72 -131 Td
-/F1 10 Tf
-72 116 Td (- threshold failure condition: q < 2^128 * 601080390) Tj
--72 -116 Td
-/F2 11 Tf
-72 91 Td (rho = 1/4) Tj
--72 -91 Td
-ET
-endstream
-endobj
-5 0 obj
-<< /Length 3012 >>
-stream
-BT
-/F1 10 Tf
-72 742 Td (- n = 32) Tj
--72 -742 Td
-/F1 10 Tf
-72 727 Td (- k = 8) Tj
--72 -727 Td
-/F1 10 Tf
-72 712 Td (- delta = 24/32) Tj
--72 -712 Td
-/F1 10 Tf
-72 697 Td (- radius = 24) Tj
--72 -697 Td
-/F1 10 Tf
-72 682 Td (- exact list size = 10518300) Tj
--72 -682 Td
-/F1 10 Tf
-72 667 Td (- existence threshold: q > 28048800) Tj
--72 -667 Td
-/F1 10 Tf
-72 652 Td (- threshold failure condition: q < 2^128 * 10518300) Tj
--72 -652 Td
-/F2 11 Tf
-72 627 Td (rho = 1/8) Tj
--72 -627 Td
-/F1 10 Tf
-72 605 Td (- n = 32) Tj
--72 -605 Td
-/F1 10 Tf
-72 590 Td (- k = 4) Tj
--72 -590 Td
-/F1 10 Tf
-72 575 Td (- delta = 28/32) Tj
--72 -575 Td
-/F1 10 Tf
-72 560 Td (- radius = 28) Tj
--72 -560 Td
-/F1 10 Tf
-72 545 Td (- exact list size = 35960) Tj
--72 -545 Td
-/F1 10 Tf
-72 530 Td (- existence threshold: q > 201376) Tj
--72 -530 Td
-/F1 10 Tf
-72 515 Td (- threshold failure condition: q < 2^128 * 35960) Tj
--72 -515 Td
-/F2 11 Tf
-72 490 Td (rho = 1/16) Tj
--72 -490 Td
-/F1 10 Tf
-72 468 Td (- n = 32) Tj
--72 -468 Td
-/F1 10 Tf
-72 453 Td (- k = 2) Tj
--72 -453 Td
-/F1 10 Tf
-72 438 Td (- delta = 30/32) Tj
--72 -438 Td
-/F1 10 Tf
-72 423 Td (- radius = 30) Tj
--72 -423 Td
-/F1 10 Tf
-72 408 Td (- exact list size = 496) Tj
--72 -408 Td
-/F1 10 Tf
-72 393 Td (- existence threshold: q > 4960) Tj
--72 -393 Td
-/F1 10 Tf
-72 378 Td (- threshold failure condition: q < 2^128 * 496) Tj
--72 -378 Td
-/F2 13 Tf
-72 353 Td (7. Prior-Work Positioning) Tj
--72 -353 Td
-/F1 10 Tf
-72 325 Td (. The final version should compare this result with the Proximity Prize companion paper,) Tj
--72 -325 Td
-/F1 10 Tf
-72 310 Td (classical Reed-Solomon list decoding, Johnson-type bounds, capacity-radius behavior, and) Tj
--72 -310 Td
-/F1 10 Tf
-72 295 Td (known impossibility or near-capacity results. This section must identify whether the m=1) Tj
--72 -295 Td
-/F1 10 Tf
-72 280 Td (specialization is explicitly covered by the prize definitions or whether it is submitted as) Tj
--72 -280 Td
-/F1 10 Tf
-72 265 Td (a specialization/partial result.) Tj
--72 -265 Td
-/F2 13 Tf
-72 240 Td (8. Submission Readiness) Tj
--72 -240 Td
-/F1 10 Tf
-72 212 Td (This document is a pre-submission draft until the following are added: final PDF, public) Tj
--72 -212 Td
-/F1 10 Tf
-72 197 Td (repository timestamp, peer-review acceptance information, expanded prior-work comparison,) Tj
--72 -197 Td
-/F1 10 Tf
-72 182 Td (and final conflict disclosure.\\n\\n## Public Timestamp and Repository Status\\nGitHub) Tj
--72 -182 Td
-/F1 10 Tf
-72 167 Td (timestamp repository: https://github.com/thehenryco/rs-m1-capacity-list-) Tj
--72 -167 Td
-/F1 10 Tf
-72 152 Td (obstruction\\n\\nAcademic repository link: TO_BE_ADDED_AFTER_ARXIV_OR_IACR_POSTING\\n\\nStatus) Tj
--72 -152 Td
-/F1 10 Tf
-72 137 Td (label: Public pre-submission draft. GitHub timestamp posted. Not yet an official Proximity) Tj
--72 -137 Td
-/F1 10 Tf
-72 122 Td (Prize submission pending academic repository posting, prior-work expansion, companion-paper) Tj
--72 -122 Td
-/F1 10 Tf
-72 107 Td (notation alignment, and peer-review acceptance.\\n) Tj
--72 -107 Td
-ET
-endstream
-endobj
-6 0 obj
-<< /Length 3667 >>
+<< /Length 3232 >>
 stream
 BT
 /F2 13 Tf
-72 742 Td (Prior-Work Positioning) Tj
+72 742 Td (3. Main Theorem) Tj
 -72 -742 Td
 /F1 10 Tf
-72 704 Td (The Proximity Prize targets Reed-Solomon list-decoding and correlated-agreement challenges) Tj
+72 704 Td (Let C = RS[F_q,L,k] with |L|=n. Suppose q > binom\(n,k+1\). Then there exists y in F_q^n such) Tj
 -72 -704 Td
 /F1 10 Tf
-72 689 Td (formalized in the companion paper by Arnon, Boneh, and Fenzi. This draft is positioned as an) Tj
+72 689 Td (that |Lambda\(C,y,n-k\)| = binom\(n,k\). Consequently, if q < 2^128 binom\(n,k\), then) Tj
 -72 -689 Td
 /F1 10 Tf
-72 674 Td (m=1 ordinary-list specialization, not as a claim about the full mutual correlated agreement) Tj
+72 674 Td (|Lambda\(C,y,n-k\)| > 2^-128 |F_q| at delta = 1-k/n.) Tj
 -72 -674 Td
-/F1 10 Tf
-72 659 Td (object or arbitrary constant m.) Tj
--72 -659 Td
-/F1 10 Tf
-72 634 Td (Classical Reed-Solomon list decoding studies the size of Hamming balls around received words) Tj
--72 -634 Td
-/F1 10 Tf
-72 619 Td (and the radius at which many codewords can appear. The construction in this draft is) Tj
--72 -619 Td
-/F1 10 Tf
-72 604 Td (elementary but directly exposes the capacity-radius surface: for C = RS[F_q,L,k], a received) Tj
--72 -604 Td
-/F1 10 Tf
-72 589 Td (word y with no degree < k polynomial agreeing on more than k coordinates has exactly) Tj
--72 -589 Td
-/F1 10 Tf
-72 574 Td (binom\(n,k\) codewords at radius n-k.) Tj
--72 -574 Td
-/F1 10 Tf
-72 549 Td (Johnson-type bounds and capacity-style results are usually used to upper-bound list size) Tj
--72 -549 Td
-/F1 10 Tf
-72 534 Td (below or near decoding thresholds. This note instead gives a lower-bound obstruction at the) Tj
--72 -534 Td
-/F1 10 Tf
-72 519 Td (capacity-radius boundary delta = 1-k/n. It should therefore be read as a) Tj
--72 -519 Td
-/F1 10 Tf
-72 504 Td (specialization/edge-case obstruction that must be compared carefully against the exact) Tj
--72 -504 Td
-/F1 10 Tf
-72 489 Td (Lambda\(C^{equiv m},delta\) definitions in the Proximity Prize companion paper.) Tj
--72 -489 Td
-/F1 10 Tf
-72 464 Td (Recent work around Reed-Solomon proximity gaps relates proximity-gap behavior to list-) Tj
--72 -464 Td
-/F1 10 Tf
-72 449 Td (decodability limits. This draft does not claim to improve those results. It isolates the m=1) Tj
--72 -449 Td
-/F1 10 Tf
-72 434 Td (ordinary-list object and supplies a transparent construction showing threshold failure in) Tj
--72 -434 Td
-/F1 10 Tf
-72 419 Td (the field-size window binom\(n,k+1\) < q < 2^128 binom\(n,k\).) Tj
--72 -419 Td
 /F2 13 Tf
-72 374 Td (Companion-Paper Notation Alignment) Tj
--72 -374 Td
+72 649 Td (4. Proof) Tj
+-72 -649 Td
 /F1 10 Tf
-72 336 Td (This draft aligns to the m=1 specialization of the grand list-decoding notation. In that) Tj
+72 611 Td (Choose y in F_q^n such that no polynomial of degree less than k agrees with y on more than k) Tj
+-72 -611 Td
+/F1 10 Tf
+72 596 Td (coordinates. Section 5 proves that such y exists when q > binom\(n,k+1\).) Tj
+-72 -596 Td
+/F1 10 Tf
+72 571 Td (For each k-subset S of the n coordinate positions, there is a unique degree < k polynomial) Tj
+-72 -571 Td
+/F1 10 Tf
+72 556 Td (f_S interpolating y on S. Its Reed-Solomon codeword agrees with y on S, hence has Hamming) Tj
+-72 -556 Td
+/F1 10 Tf
+72 541 Td (distance at most n-k from y.) Tj
+-72 -541 Td
+/F1 10 Tf
+72 516 Td (If two distinct k-subsets S and T produced the same polynomial, then that polynomial would) Tj
+-72 -516 Td
+/F1 10 Tf
+72 501 Td (agree with y on S union T. Since S and T are distinct k-subsets, S union T has more than k) Tj
+-72 -501 Td
+/F1 10 Tf
+72 486 Td (coordinates. This contradicts the choice of y. Therefore the binom\(n,k\) k-subsets produce) Tj
+-72 -486 Td
+/F1 10 Tf
+72 471 Td (binom\(n,k\) distinct codewords in Lambda\(C,y,n-k\).) Tj
+-72 -471 Td
+/F1 10 Tf
+72 446 Td (Conversely, any codeword in Lambda\(C,y,n-k\) agrees with y on at least k coordinates. By) Tj
+-72 -446 Td
+/F1 10 Tf
+72 431 Td (construction, no degree < k polynomial agrees with y on more than k coordinates. Therefore) Tj
+-72 -431 Td
+/F1 10 Tf
+72 416 Td (each listed codeword agrees on exactly k coordinates and is generated by one of the) Tj
+-72 -416 Td
+/F1 10 Tf
+72 401 Td (k-subsets above. Hence |Lambda\(C,y,n-k\)| = binom\(n,k\).) Tj
+-72 -401 Td
+/F1 10 Tf
+72 376 Td (If q < 2^128 binom\(n,k\), then binom\(n,k\) > 2^-128 q = 2^-128 |F_q|. Thus the threshold) Tj
+-72 -376 Td
+/F1 10 Tf
+72 361 Td (|Lambda| <= 2^-128 |F_q| fails at delta = 1-k/n.) Tj
+-72 -361 Td
+/F2 13 Tf
+72 336 Td (5. Existence Lemma) Tj
 -72 -336 Td
 /F1 10 Tf
-72 321 Td (specialization, C^{equiv 1} is treated as the ordinary Reed-Solomon code C, and) Tj
--72 -321 Td
+72 298 Td (Choose y uniformly at random from F_q^n. Fix a degree < k polynomial f and a fixed) Tj
+-72 -298 Td
 /F1 10 Tf
-72 306 Td (Lambda\(C^{equiv 1},delta\) is treated as the ordinary list of codewords within relative) Tj
--72 -306 Td
+72 283 Td (\(k+1\)-subset T of coordinates. The probability that f agrees with y on every coordinate of T) Tj
+-72 -283 Td
 /F1 10 Tf
-72 291 Td (Hamming radius delta of a received word y.) Tj
--72 -291 Td
+72 268 Td (is q^-\(k+1\). There are q^k degree < k polynomials and binom\(n,k+1\) choices for T. By the) Tj
+-72 -268 Td
 /F1 10 Tf
-72 266 Td (The theorem proves that at delta = 1-k/n, there exists y such that |Lambda\(C^{equiv) Tj
--72 -266 Td
+72 253 Td (union bound, the probability that some degree < k polynomial agrees with y on more than k) Tj
+-72 -253 Td
 /F1 10 Tf
-72 251 Td (1},y,delta\)| = binom\(n,k\). When binom\(n,k+1\) < q < 2^128 binom\(n,k\), this exceeds 2^-128) Tj
--72 -251 Td
+72 238 Td (coordinates is at most binom\(n,k+1\)/q. If q > binom\(n,k+1\), this probability is less than 1,) Tj
+-72 -238 Td
 /F1 10 Tf
-72 236 Td (|F_q|.) Tj
--72 -236 Td
-/F1 10 Tf
-72 211 Td (This notation alignment does not assert the arbitrary constant-m case. The arbitrary-m) Tj
--72 -211 Td
-/F1 10 Tf
-72 196 Td (object remains outside this draft unless a separate m-wise construction is added.) Tj
--72 -196 Td
+72 223 Td (so a suitable y exists.) Tj
+-72 -223 Td
 /F2 13 Tf
-72 151 Td (Final Conflict Disclosure) Tj
--72 -151 Td
+72 198 Td (6. Fixed-Rate Examples) Tj
+-72 -198 Td
+/F2 11 Tf
+72 160 Td (rho = 1/2) Tj
+-72 -160 Td
 /F1 10 Tf
-72 113 Td (The author declares no known financial, institutional, employment, advisory, or personal) Tj
+72 128 Td (- n = 32) Tj
+-72 -128 Td
+/F1 10 Tf
+72 113 Td (- k = 16) Tj
 -72 -113 Td
 /F1 10 Tf
-72 98 Td (conflicts of interest that would affect this pre-submission draft. The public GitHub) Tj
+72 98 Td (- delta = 16/32) Tj
 -72 -98 Td
 /F1 10 Tf
-72 83 Td (repository is owned by the author through the thehenryco GitHub account.) Tj
+72 83 Td (- radius = 16) Tj
 -72 -83 Td
 ET
 endstream
 endobj
-7 0 obj
-<< /Length 434 >>
+5 0 obj
+<< /Length 2719 >>
 stream
 BT
-/F2 13 Tf
-72 712 Td (Academic Repository Metadata) Tj
+/F1 10 Tf
+72 742 Td (- exact list size = 601080390) Tj
+-72 -742 Td
+/F1 10 Tf
+72 727 Td (- existence threshold: q > 565722720) Tj
+-72 -727 Td
+/F1 10 Tf
+72 712 Td (- threshold failure condition: q < 2^128 * 601080390) Tj
 -72 -712 Td
+/F2 11 Tf
+72 687 Td (rho = 1/4) Tj
+-72 -687 Td
 /F1 10 Tf
-72 674 Td (Academic repository status: TO_BE_ADDED_AFTER_ARXIV_OR_IACR_POSTING) Tj
--72 -674 Td
+72 655 Td (- n = 32) Tj
+-72 -655 Td
 /F1 10 Tf
-72 649 Td (Suggested arXiv categories: cs.IT, math.IT, cs.CR) Tj
--72 -649 Td
+72 640 Td (- k = 8) Tj
+-72 -640 Td
 /F1 10 Tf
-72 624 Td (Suggested IACR area: coding-theory-adjacent foundations for proximity testing and list) Tj
--72 -624 Td
+72 625 Td (- delta = 24/32) Tj
+-72 -625 Td
 /F1 10 Tf
-72 609 Td (decoding.) Tj
--72 -609 Td
+72 610 Td (- radius = 24) Tj
+-72 -610 Td
+/F1 10 Tf
+72 595 Td (- exact list size = 10518300) Tj
+-72 -595 Td
+/F1 10 Tf
+72 580 Td (- existence threshold: q > 28048800) Tj
+-72 -580 Td
+/F1 10 Tf
+72 565 Td (- threshold failure condition: q < 2^128 * 10518300) Tj
+-72 -565 Td
+/F2 11 Tf
+72 540 Td (rho = 1/8) Tj
+-72 -540 Td
+/F1 10 Tf
+72 508 Td (- n = 32) Tj
+-72 -508 Td
+/F1 10 Tf
+72 493 Td (- k = 4) Tj
+-72 -493 Td
+/F1 10 Tf
+72 478 Td (- delta = 28/32) Tj
+-72 -478 Td
+/F1 10 Tf
+72 463 Td (- radius = 28) Tj
+-72 -463 Td
+/F1 10 Tf
+72 448 Td (- exact list size = 35960) Tj
+-72 -448 Td
+/F1 10 Tf
+72 433 Td (- existence threshold: q > 201376) Tj
+-72 -433 Td
+/F1 10 Tf
+72 418 Td (- threshold failure condition: q < 2^128 * 35960) Tj
+-72 -418 Td
+/F2 11 Tf
+72 393 Td (rho = 1/16) Tj
+-72 -393 Td
+/F1 10 Tf
+72 361 Td (- n = 32) Tj
+-72 -361 Td
+/F1 10 Tf
+72 346 Td (- k = 2) Tj
+-72 -346 Td
+/F1 10 Tf
+72 331 Td (- delta = 30/32) Tj
+-72 -331 Td
+/F1 10 Tf
+72 316 Td (- radius = 30) Tj
+-72 -316 Td
+/F1 10 Tf
+72 301 Td (- exact list size = 496) Tj
+-72 -301 Td
+/F1 10 Tf
+72 286 Td (- existence threshold: q > 4960) Tj
+-72 -286 Td
+/F1 10 Tf
+72 271 Td (- threshold failure condition: q < 2^128 * 496) Tj
+-72 -271 Td
+/F2 13 Tf
+72 246 Td (7. Prior-Work Positioning) Tj
+-72 -246 Td
+/F1 10 Tf
+72 208 Td (The Proximity Prize targets Reed-Solomon list-decoding and correlated-agreement challenges) Tj
+-72 -208 Td
+/F1 10 Tf
+72 193 Td (formalized in the companion paper by Arnon, Boneh, and Fenzi. This draft is positioned as an) Tj
+-72 -193 Td
+/F1 10 Tf
+72 178 Td (m=1 ordinary-list specialization, not as a claim about the full mutual correlated agreement) Tj
+-72 -178 Td
+/F1 10 Tf
+72 163 Td (object or arbitrary constant m.) Tj
+-72 -163 Td
+/F1 10 Tf
+72 138 Td (Classical Reed-Solomon list decoding studies the size of Hamming balls around received words) Tj
+-72 -138 Td
+/F1 10 Tf
+72 123 Td (and the radius at which many codewords can appear. The construction in this draft is) Tj
+-72 -123 Td
+/F1 10 Tf
+72 108 Td (elementary but directly exposes the capacity-radius surface: for C = RS[F_q,L,k], a received) Tj
+-72 -108 Td
+/F1 10 Tf
+72 93 Td (word y with no degree < k polynomial agreeing on more than k coordinates has exactly) Tj
+-72 -93 Td
+/F1 10 Tf
+72 78 Td (binom\(n,k\) codewords at radius n-k.) Tj
+-72 -78 Td
 ET
 endstream
 endobj
+6 0 obj
+<< /Length 3419 >>
+stream
+BT
+/F1 10 Tf
+72 732 Td (Johnson-type bounds and capacity-style results are usually used to upper-bound list size) Tj
+-72 -732 Td
+/F1 10 Tf
+72 717 Td (below or near decoding thresholds. This note instead gives a lower-bound obstruction at the) Tj
+-72 -717 Td
+/F1 10 Tf
+72 702 Td (capacity-radius boundary delta = 1-k/n. It should therefore be read as a specialization or) Tj
+-72 -702 Td
+/F1 10 Tf
+72 687 Td (edge-case obstruction that must be compared carefully against the exact Lambda\(C^equiv) Tj
+-72 -687 Td
+/F1 10 Tf
+72 672 Td (m,delta\) definitions in the Proximity Prize companion paper.) Tj
+-72 -672 Td
+/F1 10 Tf
+72 647 Td (Recent work around Reed-Solomon proximity gaps relates proximity-gap behavior to list-) Tj
+-72 -647 Td
+/F1 10 Tf
+72 632 Td (decodability limits. This draft does not claim to improve those results. It isolates the m=1) Tj
+-72 -632 Td
+/F1 10 Tf
+72 617 Td (ordinary-list object and supplies a transparent construction showing threshold failure in) Tj
+-72 -617 Td
+/F1 10 Tf
+72 602 Td (the field-size window binom\(n,k+1\) < q < 2^128 binom\(n,k\).) Tj
+-72 -602 Td
+/F2 13 Tf
+72 577 Td (8. Companion-Paper Notation Alignment) Tj
+-72 -577 Td
+/F1 10 Tf
+72 539 Td (This draft aligns to the m=1 specialization of the grand list-decoding notation. In that) Tj
+-72 -539 Td
+/F1 10 Tf
+72 524 Td (specialization, C^equiv 1 is treated as the ordinary Reed-Solomon code C, and Lambda\(C^equiv) Tj
+-72 -524 Td
+/F1 10 Tf
+72 509 Td (1,delta\) is treated as the ordinary list of codewords within relative Hamming radius delta) Tj
+-72 -509 Td
+/F1 10 Tf
+72 494 Td (of a received word y.) Tj
+-72 -494 Td
+/F1 10 Tf
+72 469 Td (The theorem proves that at delta = 1-k/n, there exists y such that |Lambda\(C^equiv) Tj
+-72 -469 Td
+/F1 10 Tf
+72 454 Td (1,y,delta\)| = binom\(n,k\). When binom\(n,k+1\) < q < 2^128 binom\(n,k\), this exceeds 2^-128) Tj
+-72 -454 Td
+/F1 10 Tf
+72 439 Td (|F_q|.) Tj
+-72 -439 Td
+/F1 10 Tf
+72 414 Td (This notation alignment does not assert the arbitrary constant-m case. The arbitrary-m) Tj
+-72 -414 Td
+/F1 10 Tf
+72 399 Td (object remains outside this draft unless a separate m-wise construction is added.) Tj
+-72 -399 Td
+/F2 13 Tf
+72 374 Td (9. Final Conflict Disclosure) Tj
+-72 -374 Td
+/F1 10 Tf
+72 336 Td (The author declares no known financial, institutional, employment, advisory, or personal) Tj
+-72 -336 Td
+/F1 10 Tf
+72 321 Td (conflicts of interest that would affect this pre-submission draft. The public GitHub) Tj
+-72 -321 Td
+/F1 10 Tf
+72 306 Td (repository is owned by the author through the thehenryco GitHub account.) Tj
+-72 -306 Td
+/F2 13 Tf
+72 281 Td (10. Academic Repository Metadata) Tj
+-72 -281 Td
+/F1 10 Tf
+72 243 Td (Academic repository status: TO_BE_ADDED_AFTER_ARXIV_OR_IACR_POSTING) Tj
+-72 -243 Td
+/F1 10 Tf
+72 218 Td (Suggested arXiv categories: cs.IT, math.IT, cs.CR) Tj
+-72 -218 Td
+/F1 10 Tf
+72 193 Td (Suggested IACR area: coding-theory-adjacent foundations for proximity testing and list) Tj
+-72 -193 Td
+/F1 10 Tf
+72 178 Td (decoding.) Tj
+-72 -178 Td
+/F2 13 Tf
+72 153 Td (11. Submission Readiness) Tj
+-72 -153 Td
+/F1 10 Tf
+72 115 Td (This document is an academic-posting candidate. GitHub timestamping is complete. Local paper) Tj
+-72 -115 Td
+/F1 10 Tf
+72 100 Td (cleanup is complete. Official Proximity Prize submission is not complete until academic) Tj
+-72 -100 Td
+/F1 10 Tf
+72 85 Td (repository posting and peer-review acceptance are added.) Tj
+-72 -85 Td
+ET
+endstream
+endobj
+7 0 obj
+<< /Type /Page /Parent 11 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 3 0 R >>
+endobj
 8 0 obj
-<< /Type /Page /Parent 13 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 3 0 R >>
+<< /Type /Page /Parent 11 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 4 0 R >>
 endobj
 9 0 obj
-<< /Type /Page /Parent 13 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 4 0 R >>
+<< /Type /Page /Parent 11 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 5 0 R >>
 endobj
 10 0 obj
-<< /Type /Page /Parent 13 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 5 0 R >>
+<< /Type /Page /Parent 11 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 6 0 R >>
 endobj
 11 0 obj
-<< /Type /Page /Parent 13 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 6 0 R >>
+<< /Type /Pages /Kids [7 0 R 8 0 R 9 0 R 10 0 R] /Count 4 >>
 endobj
 12 0 obj
-<< /Type /Page /Parent 13 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 7 0 R >>
-endobj
-13 0 obj
-<< /Type /Pages /Kids [8 0 R 9 0 R 10 0 R 11 0 R 12 0 R] /Count 5 >>
-endobj
-14 0 obj
-<< /Type /Catalog /Pages 13 0 R >>
+<< /Type /Catalog /Pages 11 0 R >>
 endobj
 xref
-0 15
+0 13
 0000000000 65535 f 
 0000000009 00000 n 
 0000000081 00000 n 
 0000000152 00000 n 
-0000003728 00000 n 
-0000007241 00000 n 
-0000010305 00000 n 
-0000014024 00000 n 
-0000014509 00000 n 
-0000014646 00000 n 
-0000014783 00000 n 
-0000014921 00000 n 
-0000015059 00000 n 
-0000015197 00000 n 
-0000015282 00000 n 
+0000003471 00000 n 
+0000006755 00000 n 
+0000009526 00000 n 
+0000012997 00000 n 
+0000013134 00000 n 
+0000013271 00000 n 
+0000013408 00000 n 
+0000013546 00000 n 
+0000013623 00000 n 
 trailer
-<< /Size 15 /Root 14 0 R >>
+<< /Size 13 /Root 12 0 R >>
 startxref
-15333
+13674
 %%EOF

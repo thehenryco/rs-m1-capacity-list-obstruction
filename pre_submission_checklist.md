@@ -7,6 +7,8 @@
 - [x] PDF compiled
 - [x] GitHub timestamp posted
 - [x] GitHub URL inserted into package
+- [x] README stale placeholders removed
+- [x] literal escaped newline artifacts removed
 - [x] expanded prior-work positioning
 - [x] m=1 companion-paper notation alignment
 - [x] arXiv metadata draft

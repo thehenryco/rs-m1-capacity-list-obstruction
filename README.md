@@ -2,30 +2,36 @@
 
 Author: Jerod Harbor
 
-Status: Public pre-submission draft. GitHub timestamp posted. Not yet an official Proximity Prize submission pending academic repository posting, prior-work expansion, companion-paper notation alignment, and peer-review acceptance.
+Status: Public pre-submission draft. GitHub timestamp posted. m=1 notation alignment, final conflict disclosure, and prior-work positioning included. Not yet an official Proximity Prize submission pending academic repository posting and peer-review acceptance.
 
 ## Front Matter
-This draft claims a partial result: resolution of the m=1 specialization of the grand Reed-Solomon list-decoding challenge at the capacity-radius surface. It does not claim to resolve the full mutual correlated agreement challenge or the full grand list-decoding challenge for arbitrary constant m.
 
-GitHub timestamp repository: https://github.com/thehenryco/rs-m1-capacity-list-obstruction\nAcademic repository link: TO_BE_ADDED_AFTER_ARXIV_OR_IACR_POSTING
+This draft claims a partial result for early review: an m=1 capacity-radius list-size obstruction for Reed-Solomon codes. It does not claim official Proximity Prize readiness, peer-reviewed status, full mutual correlated agreement resolution, or full grand list-decoding resolution for arbitrary constant m.
+
+GitHub timestamp repository: https://github.com/thehenryco/rs-m1-capacity-list-obstruction
+
+Academic repository link: TO_BE_ADDED_AFTER_ARXIV_OR_IACR_POSTING
 
 Peer-review status: TO_BE_ADDED_AFTER_CONFERENCE_OR_JOURNAL_ACCEPTANCE
 
-Conflict-of-interest disclosure: The author declares no known conflicts of interest related to this submission, unless later disclosed in the final submitted version.
-
 ## Abstract
+
 We give a capacity-radius list-decoding obstruction for the m=1 specialization of Reed-Solomon codes. Let C = RS[F_q,L,k] with |L|=n. We prove that, whenever q > binom(n,k+1), there exists a received word y for which the Hamming ball of radius n-k contains exactly binom(n,k) Reed-Solomon codewords. Consequently, if binom(n,k+1) < q < 2^128 binom(n,k), then |Lambda(C,y,n-k)| = binom(n,k) > 2^-128 |F_q|. Thus the epsilon_star = 2^-128 threshold fails at delta = 1-k/n for the m=1 specialization in this field-size window.
 
 ## 1. Scope of the Claim
+
 This draft addresses the m=1 specialization of the grand list-decoding challenge. In this specialization, Lambda(C,delta) is the ordinary Reed-Solomon list at relative Hamming radius delta. The draft does not assert a result for arbitrary constant m unless an explicit m-wise extension is added.
 
 ## 2. Notation
+
 Let F_q be a finite field and let L subset F_q be an evaluation domain of size n. Let RS[F_q,L,k] denote the Reed-Solomon code obtained by evaluating polynomials of degree less than k on L. The rate is rho = k/n. For a received word y in F_q^n and integer radius r, let Lambda(C,y,r) be the set of codewords of C within Hamming distance r from y.
 
 ## 3. Main Theorem
+
 Let C = RS[F_q,L,k] with |L|=n. Suppose q > binom(n,k+1). Then there exists y in F_q^n such that |Lambda(C,y,n-k)| = binom(n,k). Consequently, if q < 2^128 binom(n,k), then |Lambda(C,y,n-k)| > 2^-128 |F_q| at delta = 1-k/n.
 
 ## 4. Proof
+
 Choose y in F_q^n such that no polynomial of degree less than k agrees with y on more than k coordinates. Section 5 proves that such y exists when q > binom(n,k+1).
 
 For each k-subset S of the n coordinate positions, there is a unique degree < k polynomial f_S interpolating y on S. Its Reed-Solomon codeword agrees with y on S, hence has Hamming distance at most n-k from y.
@@ -37,10 +43,13 @@ Conversely, any codeword in Lambda(C,y,n-k) agrees with y on at least k coordina
 If q < 2^128 binom(n,k), then binom(n,k) > 2^-128 q = 2^-128 |F_q|. Thus the threshold |Lambda| <= 2^-128 |F_q| fails at delta = 1-k/n.
 
 ## 5. Existence Lemma
-Choose y uniformly at random from F_q^n. Fix a degree < k polynomial f and a fixed (k+1)-subset T of coordinates. The probability that f agrees with y on every coordinate of T is q^{-(k+1)}. There are q^k degree < k polynomials and binom(n,k+1) choices for T. By the union bound, the probability that some degree < k polynomial agrees with y on more than k coordinates is at most binom(n,k+1)/q. If q > binom(n,k+1), this probability is less than 1, so a suitable y exists.
+
+Choose y uniformly at random from F_q^n. Fix a degree < k polynomial f and a fixed (k+1)-subset T of coordinates. The probability that f agrees with y on every coordinate of T is q^-(k+1). There are q^k degree < k polynomials and binom(n,k+1) choices for T. By the union bound, the probability that some degree < k polynomial agrees with y on more than k coordinates is at most binom(n,k+1)/q. If q > binom(n,k+1), this probability is less than 1, so a suitable y exists.
 
 ## 6. Fixed-Rate Examples
+
 ### rho = 1/2
+
 - n = 32
 - k = 16
 - delta = 16/32
@@ -50,6 +59,7 @@ Choose y uniformly at random from F_q^n. Fix a degree < k polynomial f and a fix
 - threshold failure condition: q < 2^128 * 601080390
 
 ### rho = 1/4
+
 - n = 32
 - k = 8
 - delta = 24/32
@@ -59,6 +69,7 @@ Choose y uniformly at random from F_q^n. Fix a degree < k polynomial f and a fix
 - threshold failure condition: q < 2^128 * 10518300
 
 ### rho = 1/8
+
 - n = 32
 - k = 4
 - delta = 28/32
@@ -68,6 +79,7 @@ Choose y uniformly at random from F_q^n. Fix a degree < k polynomial f and a fix
 - threshold failure condition: q < 2^128 * 35960
 
 ### rho = 1/16
+
 - n = 32
 - k = 2
 - delta = 30/32
@@ -77,43 +89,35 @@ Choose y uniformly at random from F_q^n. Fix a degree < k polynomial f and a fix
 - threshold failure condition: q < 2^128 * 496
 
 ## 7. Prior-Work Positioning
-. The final version should compare this result with the Proximity Prize companion paper, classical Reed-Solomon list decoding, Johnson-type bounds, capacity-radius behavior, and known impossibility or near-capacity results. This section must identify whether the m=1 specialization is explicitly covered by the prize definitions or whether it is submitted as a specialization/partial result.
-
-## 8. Submission Readiness
-This document is a pre-submission draft until the following are added: final PDF, public repository timestamp, peer-review acceptance information, expanded prior-work comparison, and final conflict disclosure.\n\n## Public Timestamp and Repository Status\nGitHub timestamp repository: https://github.com/thehenryco/rs-m1-capacity-list-obstruction\n\nAcademic repository link: TO_BE_ADDED_AFTER_ARXIV_OR_IACR_POSTING\n\nStatus label: Public pre-submission draft. GitHub timestamp posted. Not yet an official Proximity Prize submission pending academic repository posting, prior-work expansion, companion-paper notation alignment, and peer-review acceptance.\n
-
-## Prior-Work Positioning
 
 The Proximity Prize targets Reed-Solomon list-decoding and correlated-agreement challenges formalized in the companion paper by Arnon, Boneh, and Fenzi. This draft is positioned as an m=1 ordinary-list specialization, not as a claim about the full mutual correlated agreement object or arbitrary constant m.
 
 Classical Reed-Solomon list decoding studies the size of Hamming balls around received words and the radius at which many codewords can appear. The construction in this draft is elementary but directly exposes the capacity-radius surface: for C = RS[F_q,L,k], a received word y with no degree < k polynomial agreeing on more than k coordinates has exactly binom(n,k) codewords at radius n-k.
 
-Johnson-type bounds and capacity-style results are usually used to upper-bound list size below or near decoding thresholds. This note instead gives a lower-bound obstruction at the capacity-radius boundary delta = 1-k/n. It should therefore be read as a specialization/edge-case obstruction that must be compared carefully against the exact Lambda(C^{equiv m},delta) definitions in the Proximity Prize companion paper.
+Johnson-type bounds and capacity-style results are usually used to upper-bound list size below or near decoding thresholds. This note instead gives a lower-bound obstruction at the capacity-radius boundary delta = 1-k/n. It should therefore be read as a specialization or edge-case obstruction that must be compared carefully against the exact Lambda(C^equiv m,delta) definitions in the Proximity Prize companion paper.
 
 Recent work around Reed-Solomon proximity gaps relates proximity-gap behavior to list-decodability limits. This draft does not claim to improve those results. It isolates the m=1 ordinary-list object and supplies a transparent construction showing threshold failure in the field-size window binom(n,k+1) < q < 2^128 binom(n,k).
 
+## 8. Companion-Paper Notation Alignment
 
+This draft aligns to the m=1 specialization of the grand list-decoding notation. In that specialization, C^equiv 1 is treated as the ordinary Reed-Solomon code C, and Lambda(C^equiv 1,delta) is treated as the ordinary list of codewords within relative Hamming radius delta of a received word y.
 
-## Companion-Paper Notation Alignment
-
-This draft aligns to the m=1 specialization of the grand list-decoding notation. In that specialization, C^{equiv 1} is treated as the ordinary Reed-Solomon code C, and Lambda(C^{equiv 1},delta) is treated as the ordinary list of codewords within relative Hamming radius delta of a received word y.
-
-The theorem proves that at delta = 1-k/n, there exists y such that |Lambda(C^{equiv 1},y,delta)| = binom(n,k). When binom(n,k+1) < q < 2^128 binom(n,k), this exceeds 2^-128 |F_q|.
+The theorem proves that at delta = 1-k/n, there exists y such that |Lambda(C^equiv 1,y,delta)| = binom(n,k). When binom(n,k+1) < q < 2^128 binom(n,k), this exceeds 2^-128 |F_q|.
 
 This notation alignment does not assert the arbitrary constant-m case. The arbitrary-m object remains outside this draft unless a separate m-wise construction is added.
 
-
-
-## Final Conflict Disclosure
+## 9. Final Conflict Disclosure
 
 The author declares no known financial, institutional, employment, advisory, or personal conflicts of interest that would affect this pre-submission draft. The public GitHub repository is owned by the author through the thehenryco GitHub account.
 
-
-
-## Academic Repository Metadata
+## 10. Academic Repository Metadata
 
 Academic repository status: TO_BE_ADDED_AFTER_ARXIV_OR_IACR_POSTING
 
 Suggested arXiv categories: cs.IT, math.IT, cs.CR
 
 Suggested IACR area: coding-theory-adjacent foundations for proximity testing and list decoding.
+
+## 11. Submission Readiness
+
+This document is an academic-posting candidate. GitHub timestamping is complete. Local paper cleanup is complete. Official Proximity Prize submission is not complete until academic repository posting and peer-review acceptance are added.

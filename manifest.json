@@ -1,7 +1,7 @@
 {
   "bundle": "PRE_SUBMISSION_M1_SPECIALIZATION_PACKAGE",
   "created_utc": "2026-06-24T05:34:16.963710+00:00",
-  "status": "ACADEMIC_POSTING_CANDIDATE_GITHUB_TIMESTAMPED",
+  "status": "ACADEMIC_POSTING_CANDIDATE_CLEANED",
   "claim": "m=1 specialization threshold failure at capacity radius",
   "central_formula": "|Lambda(C,y,n-k)| = binom(n,k) > 2^-128 |F_q|",
   "field_window": "binom(n,k+1) < q < 2^128 binom(n,k)",
@@ -11,12 +11,12 @@
   ],
   "pdf_built": true,
   "pdf_file": "paper.pdf",
-  "updated_utc": "2026-06-24T05:53:44.323206+00:00",
+  "updated_utc": "2026-06-24T05:55:03.669160+00:00",
   "pdf_build_method": "python_standard_library_minimal_pdf_writer",
   "status_readme": "README_SUBMISSION_STATUS.md",
   "official_submission_ready": false,
   "status_updated_utc": "2026-06-24T05:38:18.681178+00:00",
-  "status_label": "Public pre-submission draft. GitHub timestamp posted. m=1 notation alignment, final conflict disclosure, and prior-work positioning included. Not yet an official Proximity Prize submission pending academic repository posting and peer-review acceptance.",
+  "status_label": "Academic-posting candidate. GitHub timestamp posted. Local paper cleanup complete. Not yet an official Proximity Prize submission pending academic repository posting and peer-review acceptance.",
   "public_repository_url": "https://github.com/thehenryco/rs-m1-capacity-list-obstruction",
   "public_repository_status": "POSTED",
   "academic_repository_url": "TO_BE_ADDED_AFTER_ARXIV_OR_IACR_POSTING",
@@ -25,5 +25,7 @@
   "final_conflict_disclosure": "INCLUDED",
   "notation_alignment": "M_EQUALS_1_SPECIALIZATION_INCLUDED",
   "arxiv_metadata_draft": "ARXIV_METADATA_DRAFT.md",
-  "iacr_metadata_draft": "IACR_EPRINT_METADATA_DRAFT.md"
+  "iacr_metadata_draft": "IACR_EPRINT_METADATA_DRAFT.md",
+  "readme_cleanup": "COMPLETE",
+  "literal_newline_cleanup": "COMPLETE"
 }
