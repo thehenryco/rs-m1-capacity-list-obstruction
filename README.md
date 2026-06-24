@@ -77,7 +77,7 @@ Choose y uniformly at random from F_q^n. Fix a degree < k polynomial f and a fix
 - threshold failure condition: q < 2^128 * 496
 
 ## 7. Prior-Work Positioning
-TO_BE_EXPANDED. The final version should compare this result with the Proximity Prize companion paper, classical Reed-Solomon list decoding, Johnson-type bounds, capacity-radius behavior, and known impossibility or near-capacity results. This section must identify whether the m=1 specialization is explicitly covered by the prize definitions or whether it is submitted as a specialization/partial result.
+. The final version should compare this result with the Proximity Prize companion paper, classical Reed-Solomon list decoding, Johnson-type bounds, capacity-radius behavior, and known impossibility or near-capacity results. This section must identify whether the m=1 specialization is explicitly covered by the prize definitions or whether it is submitted as a specialization/partial result.
 
 ## 8. Submission Readiness
 This document is a pre-submission draft until the following are added: final PDF, public repository timestamp, peer-review acceptance information, expanded prior-work comparison, and final conflict disclosure.\n\n## Public Timestamp and Repository Status\nGitHub timestamp repository: https://github.com/thehenryco/rs-m1-capacity-list-obstruction\n\nAcademic repository link: TO_BE_ADDED_AFTER_ARXIV_OR_IACR_POSTING\n\nStatus label: Public pre-submission draft. GitHub timestamp posted. Not yet an official Proximity Prize submission pending academic repository posting, prior-work expansion, companion-paper notation alignment, and peer-review acceptance.\n
